@@ -1,0 +1,9 @@
+{
+	"provideLibs": [	
+		    "libdummy_appsearch_dev-x86_64-v2.so",
+		    "libdummy_appsearch_dev.so",
+		    "libdummy_headers_appsearch-x86_64-v2.so",
+		    "libdummy_headers_appsearch.so"
+	],
+	"visible": true
+}

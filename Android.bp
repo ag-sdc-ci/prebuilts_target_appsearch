@@ -1,0 +1,30 @@
+// Auto-generated prebuilt APEX Blueprint for com.android.appsearch
+// Staged from APEX package: appsearch (com.android.appsearch)
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+prebuilt_apex {
+    name: "com.android.appsearch",
+    apex_name: "com.android.appsearch",
+    source_apex_name: "com.android.appsearch",
+    arch: {
+        arm64: {
+            src: "com.android.appsearch.apex",
+        },
+        x86_64: {
+            src: "com.android.appsearch.apex",
+        },
+    },
+    filename: "com.android.appsearch.apex",
+    prefer: true,
+    installable: true,
+}
+
+java_import {
+    name: "framework-appsearch.stubs.module_lib",
+    jars: ["framework-appsearch-stubs.jar"],
+    sdk_version: "module_current",
+    visibility: ["//visibility:public"],
+}
